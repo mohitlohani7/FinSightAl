@@ -4,6 +4,10 @@ from modules.data_loader import load_csv, basic_clean
 from modules.anomaly_detection import detect_anomalies
 import pandas as pd
 from sklearn.ensemble import IsolationForest
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
 
 def detect_anomalies(df: pd.DataFrame) -> pd.DataFrame:
     # Make sure 'Amount' column exists
@@ -113,3 +117,4 @@ if uploaded is not None:
 
 else:
     st.info("Upload a CSV file to get started. A sample CSV is included in /data.")
+
