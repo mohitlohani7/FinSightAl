@@ -1,0 +1,6 @@
+Date,Amount,Description,Merchant,Type
+2024-07-01 08:12:00,-120.50,Payment to ABC Stores,ABC Stores,DEBIT
+2024-07-01 09:55:00,5000.00,Salary Deposit,ACME Corp,CREDIT
+2024-07-05 23:01:12,-15.00,Coffee,Local Cafe,DEBIT
+2024-07-10 02:12:00,-9800.00,International Transfer,Xchange Ltd,DEBIT
+2024-07-15 14:22:00,-45.00,Food Delivery,FastEats,DEBIT

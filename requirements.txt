@@ -1,0 +1,12 @@
+requests
+numpy
+pandas
+scikit-learn
+streamlit
+matplotlib
+plotly
+reportlab
+python-dotenv
+langchain
+langgraph
+groq
